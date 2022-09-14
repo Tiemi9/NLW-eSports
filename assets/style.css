@@ -27,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-color: #121214;
     margin-top: 32px;
+    margin-bottom: 44px;
     display: flex;
     flex-direction: column;
     align-items: center;
