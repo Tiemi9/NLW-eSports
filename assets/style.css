@@ -125,9 +125,10 @@ section ul li:hover {
     }
 }
 
-section ul li {
-    animation: fromBottom .3s .4s backwards;
+main section {
+    animation: fromBottom .7s;
 }
+
 
 @keyframes fromBottom {
     from {
