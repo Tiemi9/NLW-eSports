@@ -108,11 +108,13 @@ section ul li:hover {
 
 /* animation */
 
+/*puxar a animação para o elemento em questão*/
 .header div {
-    animation: fromTop .3s .4s backwards;
+    animation: fromTop .3s .2s backwards;
     /*animation-delay: 1s; podemos usar assim ou colocar na linha acima*/
 }
 
+/* necessario definir o nome da animação*/
 @keyframes fromTop {
     from {
         opacity: 0;
@@ -126,7 +128,7 @@ section ul li:hover {
 }
 
 main section {
-    animation: fromBottom .7s;
+    animation: fromBottom .7s backwards;
 }
 
 main section:nth-child(1) {
