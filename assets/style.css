@@ -155,3 +155,19 @@ main section:nth-child(3) {
         transform: translateY(0);
     }
 }
+
+section ul li {
+    animation: fromRight .9s backwards;
+}
+
+@keyframes fromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
