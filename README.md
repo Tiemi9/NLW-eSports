@@ -2,7 +2,7 @@
 
 > Trilha Explorer 🧐
 
-![preview](./.github/preview.png)
+![preview](./.github/Preview.png)
 
 Projeto construído no evento Next Level Week Rocketseat, com animações feitas em CSS.
 
